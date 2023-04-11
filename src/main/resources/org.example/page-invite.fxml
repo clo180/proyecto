@@ -6,9 +6,11 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.MenuButton?>
 <?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
@@ -39,12 +41,12 @@
         </Button>
         <ImageView fitHeight="78.0" fitWidth="138.0" layoutX="663.0" layoutY="-14.0" pickOnBounds="true" preserveRatio="true">
             <image>
-                <Image url="@../../../../../../LogoGetAway.png" />
+                <Image url="@../../../../LogoGetAway.png" />
             </image>
         </ImageView>
         <ImageView fitHeight="101.0" fitWidth="150.0" layoutX="26.0" layoutY="63.0" pickOnBounds="true" preserveRatio="true">
             <image>
-                <Image url="@../../../../../../LogoGetAway.png" />
+                <Image url="@../../../../LogoGetAway.png" />
             </image>
         </ImageView>
         <Line endX="-99.99998474121094" endY="578.0750122070312" layoutX="300.0" layoutY="200.0" startX="-99.99998474121094" startY="-33.51434326171875" strokeWidth="5.0" />
@@ -138,31 +140,16 @@
             </font>
         </Button>
         <Line endX="1071.509033203125" endY="-1.52587890625E-5" layoutX="330.0" layoutY="167.0" startX="-108.5849609375" startY="-1.52587890625E-5" strokeWidth="5.0" />
-        <Pane layoutX="218.0" layoutY="194.0" prefHeight="235.0" prefWidth="1188.0" style="-fx-border-color: black; -fx-border-radius: 15; -fx-background-color: white;">
-            <children>
-                <Label layoutX="231.0" layoutY="19.0" prefHeight="44.0" prefWidth="919.0" style="-fx-border-color: black;" text="Nom du logement" textFill="#83bced" underline="true">
-                    <font>
-                        <Font size="21.0" />
-                    </font>
-                </Label>
-                <Label layoutX="231.0" layoutY="167.0" prefHeight="26.0" prefWidth="919.0" style="-fx-border-color: black;" text="Critèrtes : " />
-                <Label layoutX="231.0" layoutY="203.0" prefHeight="26.0" prefWidth="512.0" style="-fx-border-color: black;" text="Localisation : " underline="true" />
-                <Label layoutX="982.0" layoutY="203.0" prefHeight="26.0" prefWidth="166.0" style="-fx-border-color: black;" text="PRIX/NUIT : " textFill="#83bced">
-                    <font>
-                        <Font name="System Bold" size="13.0" />
-                    </font>
-                </Label>
-                <ImageView fitHeight="214.0" fitWidth="200.0" layoutX="14.0" layoutY="13.0" pickOnBounds="true">
-                    <image>
-                        <Image url="@../../../../../../testimage.png" />
-                    </image>
-                </ImageView>
-            </children>
-        </Pane>
-        <Label alignment="TOP_LEFT" layoutX="450.0" layoutY="269.0" prefHeight="78.0" prefWidth="919.0" style="-fx-border-color: black;" text="Description" underline="true">
-            <font>
-                <Font size="12.0" />
-            </font>
-        </Label>
+      <ScrollPane layoutX="219.0" layoutY="187.0" prefHeight="596.0" prefWidth="1186.0">
+         <content>
+            <VBox prefHeight="592.0" prefWidth="1189.0">
+               <children>
+                  <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: blue;" />
+                  <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: red;" />
+                  <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: black;" />
+               </children>
+            </VBox>
+         </content>
+      </ScrollPane>
     </children>
 </Pane>
