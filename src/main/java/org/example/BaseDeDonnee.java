@@ -238,8 +238,14 @@ public class BaseDeDonnee {
 
 
     }
+    public void rechercheUtilisateur(){
 
 
 
+
+
+
+
+    }
 }
 

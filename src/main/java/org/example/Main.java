@@ -2,6 +2,10 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello ! 123456");
+
+    BaseDeDonnee b1 =new BaseDeDonnee();
+
+    b1.ajouterLigne();
+
     }
 }
