@@ -47,7 +47,25 @@ public class InsertData {
                 /*if (resHotel.getString("Nom").compareTo("...")==0){
                     searchHotel.add(resHotel.getString("Nom"));
                 }
-                if (resHotel.getString("Prix") == ...){
+                if (resHotel.getString("NB_Etoile") == ...){
+                    searchHotel.add(resHotel.getString("Nom"));
+                }
+                if (resHotel.getString("Petit-Dej") == ...){
+                    searchHotel.add(resHotel.getString("Nom"));
+                }
+                if (resHotel.getString("Restaurant") == ...){
+                    searchHotel.add(resHotel.getString("Nom"));
+                }
+                if (resHotel.getString("Type_Lit") == ...){
+                    searchHotel.add(resHotel.getString("Nom"));
+                }
+                if (resHotel.getString("Marque").compareTo("...")==0){
+                    searchHotel.add(resHotel.getString("Nom"));
+                }
+                if (resHotel.getString("NB_Pers") == ...){
+                    searchHotel.add(resHotel.getString("Nom"));
+                }
+                if (resHotel.getString("Note_Client") == ...){
                     searchHotel.add(resHotel.getString("Nom"));
                 }*/
             }
@@ -57,7 +75,42 @@ public class InsertData {
                 if (resVilla.getString("Lieu").compareTo(ville)==0){
                     searchVilla.add(resVilla.getString("Nom"));
                 }
-
+                /*if (resVilla.getString("Nom").compareTo(...)==0){
+                    searchVilla.add(resVilla.getString("Nom"));
+                }
+                if (resVilla.getString("Prix") == ...){
+                    searchVilla.add(resVilla.getString("Nom"));
+                }
+                if (resVilla.getString("Piscine") == ...){
+                    searchVilla.add(resVilla.getString("Nom"));
+                }
+                if (resVilla.getString("NB_Chambre") == ...){
+                    searchVilla.add(resVilla.getString("Nom"));
+                }
+                if (resVilla.getString("NB_SDB") == ...){
+                    searchVilla.add(resVilla.getString("Nom"));
+                }
+                if (resVilla.getString("NB_Personne") == ...){
+                    searchVilla.add(resVilla.getString("Nom"));
+                }
+                if (resVilla.getString("Note_Client") == ...){
+                    searchVilla.add(resVilla.getString("Nom"));
+                }
+                if (resVilla.getString("Wifi") == ...){
+                    searchVilla.add(resVilla.getString("Nom"));
+                }
+                if (resVilla.getString("Climatisation") == ...){
+                    searchVilla.add(resVilla.getString("Nom"));
+                }
+                if (resVilla.getString("Fumeur") == ...){
+                    searchVilla.add(resVilla.getString("Nom"));
+                }
+                if (resVilla.getString("Animaux") == ...){
+                    searchVilla.add(resVilla.getString("Nom"));
+                }
+                if (resVilla.getString("Parking") == ...){
+                    searchVilla.add(resVilla.getString("Nom"));
+                }*/
             }
 
             while(resAppart.next()){
@@ -65,6 +118,39 @@ public class InsertData {
                 if (resAppart.getString("Lieu").compareTo(ville)==0){
                     searchAppart.add(resAppart.getString("Nom"));
                 }
+                /*if (resAppart.getString("Nom").compareTo(...)==0){
+                    searchAppart.add(resAppart.getString("Nom"));
+                }
+                if (resAppart.getString("Prix") == ...){
+                    searchAppart.add(resAppart.getString("Nom"));
+                }
+                if (resAppart.getString("NB_Chambre") == ...){
+                    searchAppart.add(resAppart.getString("Nom"));
+                }
+                if (resAppart.getString("NB_SDB") == ...){
+                    searchAppart.add(resAppart.getString("Nom"));
+                }
+                if (resAppart.getString("NB_Personne") == ...){
+                    searchAppart.add(resAppart.getString("Nom"));
+                }
+                if (resAppart.getString("Note_Client") == ...){
+                    searchAppart.add(resAppart.getString("Nom"));
+                }
+                if (resAppart.getString("Wifi") == ...){
+                    searchAppart.add(resAppart.getString("Nom"));
+                }
+                if (resAppart.getString("Climatisation") == ...){
+                    searchAppart.add(resAppart.getString("Nom"));
+                }
+                if (resAppart.getString("Fumeur") == ...){
+                    searchAppart.add(resAppart.getString("Nom"));
+                }
+                if (resAppart.getString("Animaux") == ...){
+                    searchAppart.add(resAppart.getString("Nom"));
+                }
+                if (resAppart.getString("Parking") == ...){
+                    searchAppart.add(resAppart.getString("Nom"));
+                }*/
             }
 
             while(resChalet.next()){
@@ -72,6 +158,48 @@ public class InsertData {
                 if (resChalet.getString("Lieu").compareTo(ville)==0){
                     searchChalet.add(resChalet.getString("Nom"));
                 }
+                /*if (resChalet.getString("Nom").compareTo(ville)==0){
+                    searchChalet.add(resChalet.getString("Nom"));
+                }
+                if (resChalet.getString("Prix") == ...){
+                    searchChalet.add(resChalet.getString("Nom"));
+                }
+                if (resChalet.getString("Local_Ski") == ...){
+                    searchChalet.add(resChalet.getString("Nom"));
+                }
+                if (resChalet.getString("Cheminer") == ...){
+                    searchChalet.add(resChalet.getString("Nom"));
+                }
+                if (resChalet.getString("D_Chalet-Piste") == ...){
+                    searchChalet.add(resChalet.getString("Nom"));
+                }
+                if (resChalet.getString("NB_Chambre") == ...){
+                    searchChalet.add(resChalet.getString("Nom"));
+                }
+                if (resChalet.getString("NB_SDB") == ...){
+                    searchChalet.add(resChalet.getString("Nom"));
+                }
+                if (resChalet.getString("NB_Personne") == ...){
+                    searchChalet.add(resChalet.getString("Nom"));
+                }
+                if (resChalet.getString("Note_Client") == ...){
+                    searchChalet.add(resChalet.getString("Nom"));
+                }
+                if (resChalet.getString("Wifi") == ...){
+                    searchChalet.add(resChalet.getString("Nom"));
+                }
+                if (resChalet.getString("Climatisation") == ...){
+                    searchChalet.add(resChalet.getString("Nom"));
+                }
+                if (resChalet.getString("Fumeur") == ...){
+                    searchChalet.add(resChalet.getString("Nom"));
+                }
+                if (resChalet.getString("Animaux") == ...){
+                    searchChalet.add(resChalet.getString("Nom"));
+                }
+                if (resChalet.getString("Parking") == ...){
+                    searchChalet.add(resChalet.getString("Nom"));
+                }*/
             }
 
             con.close();
