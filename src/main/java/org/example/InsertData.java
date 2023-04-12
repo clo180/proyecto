@@ -3,7 +3,7 @@ import java.sql.*;
 import java.util.*;
 
 public class InsertData {
-    public static void main(String[] args) {
+    public static void recherchefiltre() {
 
         ArrayList<String> searchHotel = new ArrayList<>();
         ArrayList<String> searchVilla = new ArrayList<>();
